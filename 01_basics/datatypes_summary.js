@@ -35,6 +35,7 @@ const scorevalue = 100.3
 //        Object  =>  object
 
 
+
 // REFERENCE  (non primitive)
 
 //array, objects, functions
@@ -52,3 +53,34 @@ let myObj = {
  }
 
  console.log(typeof anotherId);
+
+
+
+
+
+ //**************************************************************************************** */
+
+ // stack (primitive).heap(non primitive)
+
+
+ let myYoutubeName = "nakulpurohitdotcom"
+
+ let anothername = myYoutubeName
+
+
+  anothername = "mrnaxofficial"
+
+  console.log(myYoutubeName);
+  console.log(anothername);
+
+  let userOne = {
+      email: "user@google.com",
+       upi: "user@ybl" 
+  }
+
+let usertwo = userOne
+
+usertwo.email = "nakul@google.com"
+
+console.log(userOne.email);
+console.log(usertwo.email);
